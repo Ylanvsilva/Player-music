@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto: família= Roboto:wght@100;300;400 & display=swap');
+
 body {
     background-color: #0F0D13;
 
     width: 98vw;
     height: 92vh;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 .general1 {
@@ -45,7 +49,8 @@ body {
 .text1 h1 {
     margin-bottom: 10px;
 
-    font-size: 25px;
+    font-size: 24px;
+    line-height: 100%;
     font-weight: bold;
 }
 
@@ -109,6 +114,10 @@ body {
     color: white;
 }
 
+.container {
+    width: 420px;
+}
+
 .general2 {
     display: flex;
     flex-direction: column;
@@ -157,10 +166,12 @@ body {
 .text2 h1 {
     display: flex;
     align-items: center;
+
     margin-top: 15px;
     margin-bottom: 10px;
 
-    font-size: 25px;
+    font-size: 24px;
+    line-height: 100%;
     font-weight: bold;
 }
 
@@ -220,4 +231,73 @@ body {
     color: white;
 
     margin-top: 10px;
+}
+
+.general3 {
+    display: flex;
+    flex-direction: column;
+
+    width: 358px;
+    height: 200px;
+
+    background-color: #2A2141;
+    
+    border-radius: 10px;
+
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.frame3 {
+    display: flex;
+
+    width: 300px;
+    height: 84px;
+
+    margin: 28px;
+}
+
+.img3 {
+    background: url('/images/background.jpg');
+    background-size: 100%;
+    background-position: center center;
+
+    width: 84px;
+    height: 84px;
+
+    border-radius: 6px;
+}
+
+.text3 {
+    color: white;
+    
+    width: 210px;
+
+    margin-left: 29px;
+    margin-top: 15px;
+}
+
+.text3 h1 {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.text3 p {
+    color: rgba(255, 255, 255, 0.301);
+
+    font-size: 20px;
+}
+
+.player3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 300px;
+    height: 29px;
+
+    margin-left: 29px;
 }
