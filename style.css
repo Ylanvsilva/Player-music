@@ -258,7 +258,7 @@ body {
 }
 
 .img3 {
-    background: url('/images/background.jpg');
+    background: url('images/background.jpg');
     background-size: 100%;
     background-position: center center;
 
